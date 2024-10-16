@@ -1,11 +1,19 @@
 {
   "name": "csv-contacts-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extract Basic Contact Lists from CSV Files",
   "main": "index.js",
   "scripts": {
     "test": "node tests/file-a.js"
   },
+  "repository": {
+    "type": "git",
+    "url" : "git+https://github.com/FredLackey/csv-contacts-parser.git"
+  },
+  "bugs"   : {
+    "url": "https://github.com/FredLackey/csv-contacts-parser/issues"
+  },
+  "homepage" : "https://github.com/FredLackey/csv-contacts-parser#readme",
   "keywords": [
     "csv",
     "contacts",
