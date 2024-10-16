@@ -1,6 +1,6 @@
 {
   "name": "csv-contacts-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extract Basic Contact Lists from CSV Files",
   "main": "index.js",
   "scripts": {

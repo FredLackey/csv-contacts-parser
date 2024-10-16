@@ -14,7 +14,7 @@ npm install csv-contacts-parser
 const csvContacts = require('csv-contacts-parser');
 
 const json = await csvContacts.parse({
-  path: 'path/to/excel/file.csv'
+  path: 'path/to/csv/file.csv'
 });
 ```
 
