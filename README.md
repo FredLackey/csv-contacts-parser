@@ -14,7 +14,7 @@ npm install csv-contacts-parser
 const csvContacts = require('csv-contacts-parser');
 
 const json = await csvContacts.parse({
-  path: 'path/to/excel/file.xlsx'
+  path: 'path/to/excel/file.csv'
 });
 ```
 
@@ -28,7 +28,7 @@ The output is a JSON object with the following structure:
 
 ```json
 {
-  "path": "path/to/csv/file.xlsx",
+  "path": "path/to/csv/file.csv",
   "contacts": [
     {
       "email": "joe.blow@nowhere.com",
