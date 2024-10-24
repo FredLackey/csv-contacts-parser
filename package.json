@@ -1,9 +1,9 @@
 {
-  "name": "csv-contacts-parser",
-  "version": "1.0.3",
+  "name"       : "csv-contacts-parser",
+  "version"    : "1.0.4",
   "description": "Extract Basic Contact Lists from CSV Files",
-  "main": "index.js",
-  "scripts": {
+  "main"       : "src/index.js",
+  "scripts"    : {
     "test": "node tests/file-a.js"
   },
   "repository": {
@@ -13,7 +13,7 @@
   "bugs"   : {
     "url": "https://github.com/FredLackey/csv-contacts-parser/issues"
   },
-  "homepage" : "https://github.com/FredLackey/csv-contacts-parser#readme",
+  "homepage": "https://github.com/FredLackey/csv-contacts-parser#readme",
   "keywords": [
     "csv",
     "contacts",
@@ -22,13 +22,13 @@
     "name"
   ],
   "author": {
-    "name": "Fred Lackey",
+    "name" : "Fred Lackey",
     "email": "fred.lackey@gmail.com",
-    "url": "http://fredlackey.com"
+    "url"  : "http://fredlackey.com"
   },
-  "license": "MIT",
+  "license"     : "MIT",
   "dependencies": {
-    "cleaner-node": "^1.3.1",
+    "cleaner-node"       : "^1.3.1",
     "convert-csv-to-json": "^2.49.0"
   }
 }
